@@ -1,0 +1,67 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .example-card {
+        width: 50%;
+    }
+    .header-section {
+        flex-wrap: wrap-reverse;
+    }
+    .header-left {
+        max-width: 80vw;
+    }
+    .big-feature-container {
+        flex-wrap: wrap-reverse;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .link-column {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .cta-section-container {
+        align-items: center;
+    }
+    .example-card-section {
+       flex-wrap: wrap;
+    }
+    .sub-footer-container {
+        flex-wrap: wrap;
+    }
+    .example-card-section {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .example-card {
+        width: 45%;
+    }
+}
